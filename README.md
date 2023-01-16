@@ -3,8 +3,8 @@ In this project, a theoretical-computational framework is proposed for predictin
 
 
 
-# Citation
-If you find this code useful, please cite our works as:
+## Citation
+If you find this code useful, please cite our open access works as [^1][^2]:
 ```
 @article{AMIRIAN2022111789,
 title = {Thermodynamically-consistent derivation and computation of twinning and fracture in brittle materials by means of phase-field approaches in the finite element method},
@@ -30,3 +30,5 @@ publisher = {Elsevier}
 }
 
 ```
+[^1]: [International Journal of Solids and Structures](https://doi.org/10.1016/j.ijsolstr.2022.111789)
+[^2]: [Computational Mechanics](https://doi.org/10.1007/s00466-022-02209-3)
