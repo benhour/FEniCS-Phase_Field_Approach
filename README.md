@@ -4,8 +4,19 @@ In this project, a theoretical-computational framework is proposed for predictin
 
 
 ## Citation
-If you find these codes useful, please cite our open access works as [^1][^2]:
+If you find these codes useful, please cite our open access works as [^1][^2][^3]:
 ```
+@article{amirian2023study,
+ title={The study of diffuse interface propagation of dynamic failure in advanced ceramics using the phase-field approach},
+ author={Amirian, Benhour and Abali, Bilen Emek and Hogan, James David},
+ journal={Computer Methods in Applied Mechanics and Engineering},
+ volume={405},
+ pages={115862},
+ year={2023},
+ publisher={Elsevier}
+}
+
+
 @article{AMIRIAN2022111789,
 title = {Thermodynamically-consistent derivation and computation of twinning and fracture in brittle materials by means of phase-field approaches in the finite element method},
 author = {Benhour Amirian and Hossein Jafarzadeh and Bilen Emek Abali and Alessandro Reali and James David Hogan}
@@ -30,5 +41,9 @@ publisher = {Elsevier}
 }
 
 ```
-[^1]: [International Journal of Solids and Structures](https://doi.org/10.1016/j.ijsolstr.2022.111789)
-[^2]: [Computational Mechanics](https://doi.org/10.1007/s00466-022-02209-3)
+[^1]: [Computer Methods in Applied Mechanics and Engineering](https://doi.org/10.1016/j.cma.2022.115862)
+[^2]: [International Journal of Solids and Structures](https://doi.org/10.1016/j.ijsolstr.2022.111789)
+[^3]: [Computational Mechanics](https://doi.org/10.1007/s00466-022-02209-3)
+
+
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
