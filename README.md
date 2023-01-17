@@ -3,6 +3,14 @@ In this project, a theoretical-computational framework is proposed for predictin
 
 
 
+## FEniCS
+An open-source computing platform, [FEniCS](https://fenicsproject.org/) is used for translating the governing equations into efficient finite element code. An Intel Xeon E7-4850 (in total 64 cores each 40 MB cache, equipped with 256 GB RAM in total, running Linux Kernel 5 Ubuntu 20.04) is implemented for running the simulations. Running the codes in parallel requires the following command:
+```
+mpirun -n (# of CPUs) python3 script_test.py
+```
+
+
+
 ## SALOME
 The geometry and meshes are created in [SALOME Version 9.7.0](https://www.salome-platform.org/?page_id=15) as MED files and then converted to XML files for the simulations using **DOLFIN** package.
 
@@ -44,7 +52,6 @@ publisher = {Elsevier}
  year={2022},
  publisher={Springer}
 }
-
 ```
 [^1]: [Computer Methods in Applied Mechanics and Engineering](https://doi.org/10.1016/j.cma.2022.115862)
 [^2]: [International Journal of Solids and Structures](https://doi.org/10.1016/j.ijsolstr.2022.111789)
