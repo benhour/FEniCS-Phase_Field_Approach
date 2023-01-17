@@ -3,6 +3,11 @@ In this project, a theoretical-computational framework is proposed for predictin
 
 
 
+## SALOME
+The geometry and meshes are created in [SALOME Version 9.7.0](https://www.salome-platform.org/?page_id=15) as MED files and then converted to XML files for the simulations.
+
+
+
 ## Citation
 If you find these codes useful, please cite our open access works as [^1][^2][^3]:
 ```
